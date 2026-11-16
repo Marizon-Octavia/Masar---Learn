@@ -1,0 +1,6 @@
+{
+  "name": "Masar · مسار",
+  "description": "Personalized A1 English learning path for Arabic speakers with bilingual guidance, audio speed control, and a progressive understanding curve.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

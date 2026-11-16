@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-canvas: #F8FAFC;
+    --bg-subtle: #F1F5F9;
+    --bg-surface: #FFFFFF;
+    --border-hairline: #E2E8F0;
+    --text-primary: #0F172A;
+    --text-muted: #475569;
+    --accent-primary: #059669;
+    --accent-audio: #0284C7;
+    --accent-xp: #D97706;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', 'IBM Plex Sans Arabic', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--bg-canvas);
+    color: var(--text-primary);
+  }
+}
+
+.font-arabic {
+  font-family: 'IBM Plex Sans Arabic', 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-english {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-mono-nums {
+  font-family: 'IBM Plex Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
